@@ -72,6 +72,12 @@ $ docker ps
 $ docker container ls -a
 ```
 
+### List all containers ids
+
+```
+$ docker ps -q
+```
+
 ### Stop container
 
 ```
