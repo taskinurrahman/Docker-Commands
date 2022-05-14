@@ -72,16 +72,46 @@ $ docker ps
 $ docker container ls -a
 ```
 
-### List all containers ids
+### List all containers ids(By default will show the active .use -a to show all)
 
 ```
 $ docker ps -q
+```
+
+
+### Start container
+
+```
+$ docker container start [ID]
+```
+### Start container
+
+```
+$ docker container start [ID]
+```
+
+### Start Multiple container
+
+```
+$ docker container start [ID] [ID]
+```
+
+### Start all container
+
+```
+$ docker container start $($ docker ps -q)
 ```
 
 ### Stop container
 
 ```
 $ docker container stop [ID]
+```
+
+### Stop multiple container
+
+```
+$ docker container stop [ID] [ID]
 ```
 
 ### Stop all running containers
